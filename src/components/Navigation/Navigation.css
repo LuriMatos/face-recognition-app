@@ -1,0 +1,25 @@
+ul {
+    margin: 0;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    list-style: none;
+}
+
+li {
+    margin-top: 10px;
+    padding: 5px;
+}
+
+li:last-child {
+    margin-right: 15px;
+}
+  
+a {
+   text-decoration: none;
+}
+
+a svg {
+    width: 50px;
+}
